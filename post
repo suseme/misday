@@ -1,0 +1,11 @@
+# $# == 1: 
+# 	$1: comment
+# $# == 2:
+# 	$1: file path
+# 	$2: comment
+
+git add .
+echo "comment:"
+cmnt=read
+git commit -m $cmnt
+git push origin gh-pages
