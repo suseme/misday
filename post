@@ -6,6 +6,6 @@
 
 git add .
 echo "comment:"
-cmnt=read
+read cmnt
 git commit -m $cmnt
 git push origin gh-pages

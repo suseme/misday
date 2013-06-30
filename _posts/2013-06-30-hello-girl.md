@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Fresh Markdown
+title: Hello 少女!
 ---
 ## {{ page.title }} ##
 
 {{ page.date | date_to_string }}
 
-This is my fresh markdown page.
+少女生气了，我该怎么办呢。
 
-hoho.
+###哄哄她!###
