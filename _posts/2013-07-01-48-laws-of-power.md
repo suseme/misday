@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: issue
 title: 48 Laws of Power, 权力的48条规则
 ---
-## {{ page.title }} ##
+================
+{{ page.title }}
+================
 
 {{ page.date | date_to_string }}
 
