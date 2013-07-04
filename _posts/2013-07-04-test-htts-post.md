@@ -1,6 +1,6 @@
 ---
 layout: post
-title: test https post 
+title: Test https post 
 ---
 Test post via https.
 
