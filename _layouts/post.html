@@ -5,10 +5,24 @@
 	<title>{{ page.title }}</title>
 </head>
 <body>
+<!-- header -->
+<div>
 	<p><a href="http://susemm.github.io/misday/index.html">Home</a>
+</div>
+<div>
 	<h1>{{ page.title }}</h1>
 	<p>{{ page.date | date_to_string }}</p>
+</div>
+
+<!-- content -->
+<div>
 	{{ content }}
+</div>
+
+<!-- footer -->
+<div>
+<a href="www.misday.com">www.misday.com</a>
+</div>
 </body>
 </html>
 
