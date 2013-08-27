@@ -1,0 +1,11 @@
+_site/*
+_theme_packages/*
+bakup/*
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
