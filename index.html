@@ -4,8 +4,10 @@ title: MISDAY
 ---
 <h2>{{ page.title }}</h2>
 <p>New Post</p>
+{{ site.baseurl }}
 <ul>
 	{% for post in site.posts %}
+	{{ post.url }}
 		<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
