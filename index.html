@@ -2,12 +2,25 @@
 layout: index
 title: MISDAY
 ---
+{% assign first_post = site.posts.first %}
+
 <h2>{{ page.title }}</h2>
+
+<div id="first_post">
+<h3> {{ first_post.title }} </h3>
+<p>
+{{ first_post.content | truncate: 450 }}
+</br>
+<a id="more" href="{{ first_post.url }}">Read More &raquo;</a>
+</p>
+</div>
+
+<div id="post_list">
 <p>New Post</p>
 <ul>
-	{% for post in site.posts%}
-		{% include item.html %}
+	{% for post in site.posts %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
-
+</div>
 
