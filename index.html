@@ -5,12 +5,9 @@ title: MISDAY
 <h2>{{ page.title }}</h2>
 <p>New Post</p>
 <ul>
-	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string }} >> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-		</br>
-		post.url: {{ post.url }}
+	{% for post in site.posts%}
+		{% include item.html %}
 	{% endfor %}
 </ul>
 
-<p>site.baseurl: {{ site.baseurl }} </p>
 
