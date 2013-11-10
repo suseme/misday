@@ -7,6 +7,10 @@ title: MISDAY
 <ul>
 	{% for post in site.posts %}
 		<li>{{ post.date | date_to_string }} >> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+		</br>
+		post.url: {{ post.url }}
 	{% endfor %}
 </ul>
+
+<p>site.baseurl: {{ site.baseurl }} </p>
 
