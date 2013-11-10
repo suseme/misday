@@ -1,7 +1,7 @@
-----
+---
 layout: post
 title: 日版的KPW，下载Amazon.cn的免费书籍
-----
+---
 
 新买的日版KPW，使用CN的Amazon帐号reg了后，不能从Amazon.cn的store上下载免费的书籍。
 
