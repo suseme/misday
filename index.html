@@ -4,9 +4,11 @@ title: MISDAY
 ---
 {% assign first_post = site.posts.first %}
 
+<div id="header">
 <h2>{{ page.title }}</h2>
+</div>
 
-<div id="first_post">
+<div id="home_left">
 <h3> {{ first_post.title }} </h3>
 <p>
 {{ first_post.content | truncate: 450 }}
@@ -15,7 +17,7 @@ title: MISDAY
 </p>
 </div>
 
-<div id="post_list">
+<div id="home_right">
 <p>New Post</p>
 <ul>
 	{% for post in site.posts %}
