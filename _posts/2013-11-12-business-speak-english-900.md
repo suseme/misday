@@ -102,36 +102,36 @@ Unit 30 技术引进的方式及费用
 
 # Unit 3: Business scope introduction
 ## Part I
-61) We wish to introduce ourselves to you as a sate-owned corporation dealing exclusively in light iindustrial goods.
-62) We are introducing ourselves as one of the lading exporters of the same line of business
-63) We have the pleasure of introducing ourselves to you as a state corporation specializing in the export of canned goods.
-64) We introduce ourselves as dealers in bicycles and spare parts. We have been in this line for over two decades.
-65) Our corporation is specialized in handling the export business of textiles
-66) The main products our corporation deals in are electrical appliances.
-67) Our company is mainly engaged in agricultural products.
-68) We specialize in the export of table-cloths.
-69) Our company mainly deals with the export business of silk goods.
-70) Our specialization is the exportation of Chinese silk garments
-71) We are engaged in the import and export of machinery.
-72) we are now doing a large import business in fruits from Southeast Asia.
-73) We specialize in handling clocks and watches of all sorts.
-74) We also take on a variety of silk piece goods.
-75) Our activities cover a wide range of commodities, such as ties, belts and shirts.
-76) We are in a very good position to supply most grades of canned fish at competitive prices and for good delivery.
-77) We are in a position to accept orders against customers samples specifying design, specifications and packaging requirements.
-78) We are not exporting straw and willow products, embroideries,, porcelain wares, jade carvings, antiques, Chinese paintings, silk flowers and various kinds of toys and gifts.
-79) Our corporation is a major producer of technically advanced machinery and chemicals for industry and agriculture.
-80) Electronic products fall within the scope of our business activities.
-81) We also do export business of hand made woven articles.
-82) We have been engaged in the glass business with many Asian countries for many years
-83) Our company is mainly in the line of exporting Chinese art objects to European markets.
-84) We also do import and export business in chemicals and agricultural products
-85) We have been importing and exporting all kinds of metals and minerals for 30 years and have many customers and friends in over 80 countries and regions.
-86) Our corporation is a group enterprise integrating scientific research, business, production and service.
-87) As a joint venture, our corporation has won a prominent position in the fields of home electronics, computers and telecommunications in China
-88) We are prepared to accept orders for goods with customers’ own trade marks or brand names.
-89) We have been handling leather shoes and gloves for more than 20 yars.
-90) We have been engaged for two decades in the manufacture of such equipment.
+61.We wish to introduce ourselves to you as a sate-owned corporation dealing exclusively in light iindustrial goods.
+62.We are introducing ourselves as one of the lading exporters of the same line of business
+63.We have the pleasure of introducing ourselves to you as a state corporation specializing in the export of canned goods.
+64.We introduce ourselves as dealers in bicycles and spare parts. We have been in this line for over two decades.
+65.Our corporation is specialized in handling the export business of textiles
+66.The main products our corporation deals in are electrical appliances.
+67.Our company is mainly engaged in agricultural products.
+68.We specialize in the export of table-cloths.
+69.Our company mainly deals with the export business of silk goods.
+70.Our specialization is the exportation of Chinese silk garments
+71.We are engaged in the import and export of machinery.
+72.we are now doing a large import business in fruits from Southeast Asia.
+73.We specialize in handling clocks and watches of all sorts.
+74.We also take on a variety of silk piece goods.
+75.Our activities cover a wide range of commodities, such as ties, belts and shirts.
+76.We are in a very good position to supply most grades of canned fish at competitive prices and for good delivery.
+77.We are in a position to accept orders against customers samples specifying design, specifications and packaging requirements.
+78.We are not exporting straw and willow products, embroideries,, porcelain wares, jade carvings, antiques, Chinese paintings, silk flowers and various kinds of toys and gifts.
+79.Our corporation is a major producer of technically advanced machinery and chemicals for industry and agriculture.
+80.Electronic products fall within the scope of our business activities.
+81.We also do export business of hand made woven articles.
+82.We have been engaged in the glass business with many Asian countries for many years
+83.Our company is mainly in the line of exporting Chinese art objects to European markets.
+84.We also do import and export business in chemicals and agricultural products
+85.We have been importing and exporting all kinds of metals and minerals for 30 years and have many customers and friends in over 80 countries and regions.
+86.Our corporation is a group enterprise integrating scientific research, business, production and service.
+87.As a joint venture, our corporation has won a prominent position in the fields of home electronics, computers and telecommunications in China
+88.We are prepared to accept orders for goods with customers’ own trade marks or brand names.
+89.We have been handling leather shoes and gloves for more than 20 yars.
+90.We have been engaged for two decades in the manufacture of such equipment.
 
 # Unit 4: Aggreement
 91.We assure you that such things will not happen again in our future deliveries.
