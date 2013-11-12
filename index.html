@@ -12,21 +12,28 @@ title: MISDAY
 
 <div id="home_left" class="home_box">
 <h2> Latest Post </h2>
-<h3> {{ first_post.title }} </h3>
-<p>
-{{ first_post.content | truncate: 450 }}
-</br>
-<a id="more" href="{{ first_post.url }}">Read More &raquo;</a>
-</p>
+
+	<div class="post">
+		<h1> {{ first_post.title }} </h1>
+		<div class="body">
+			<p>
+			{{ first_post.content | truncate: 450 }}
+			</br>
+			<a id="more" href="{{ first_post.url }}">Read More &raquo;</a>
+			</p>
+		</div>
+	</div>
 </div>
 
 <div id="home_right" class="home_box">
-<h2>New Posts</h2>
-<ul>
-	{% for post in site.posts %}
-		<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+	<h2>New Posts</h2>
+	<ul>
+		{% for post in site.posts %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
 </div>
+
+<div class="clearfix"></div>
 
 </div>
