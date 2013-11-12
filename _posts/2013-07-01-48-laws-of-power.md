@@ -24,14 +24,15 @@ Keep people off-balance and in the dark by never revealing the purpose behind yo
 When you are trying to impress people with words, the more you say, the more common you appear, and the less in control. Even if you are saying something banal, it will seem original if you make it vague, open-ended, and sphinxlike. Powerful people impress and intimidate by saying less. The more you say, the more likely you are to say something foolish.
 
 ### LAW 5 - SO MUCH DEPENDS ON REPUTATION GUARD IT WITH YOUR LIFE ###
-### 规则5 - ###
+### 规则5 - 太多依赖名誉了，用你的生命守护 ###
 
 Reputation is the cornerstone of power. Through reputation alone you can intimidate and win; once it slips, however, you are vulnerable, and will be attacked on all sides. Make your reputation unassailable. Always be alert to potential attacks and thwart them before they happen. Meanwhile, learn to destroy your enemies by opening holes in their own reputations. Then stand aside and let public opinion hang them.
 
 ### LAW 6 - COURT ATTENTION AT ALL COST ###
-### 规则6 - 关注所有的付出 ###
+### 规则6 - 让付出被关注 ###
 
 Everything is judged by its appearance; what is unseen counts for nothing. Never let yourself get lost in the crowd, then, or buried in oblivion. Stand out. Be conspicuous, at all cost. Make yourself a magnet of attention by appearing larger, more colorful, more mysterious than the bland and timid masses.
+一切由其相所定，看不见的东西则没有任何意义。别被众人淹没，让一切的付出，站出来，显眼点。比那淡而无味的、羞怯的芸芸众生更高大、更具色彩、更有神秘感，让自己吸引着众人的目光。
 
 ### LAW 7 - GET OTHERS TO DO THE WORK FOR YOU, BUT ALWAYS TAKE THE CREDIT ###
 ### 规则7 - 活让别人干，荣誉自己拿 ###
@@ -42,6 +43,7 @@ Use the wisdom, knowledge, and legwork of other people to further your own cause
 ### 规则8 - ###
 
 When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gainsthen attack. You hold the cards.
+当你迫使他人去做，你就是支配者。总比让你的对手xxx的好，
 
 ### LAW 9 - WIN THROUGH YOUR ACTIONS, NEVER THROUGH ARGUMENT ###
 ### 规则9 - ###
