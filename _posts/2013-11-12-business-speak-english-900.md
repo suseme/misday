@@ -3,6 +3,37 @@ layout: post
 title: 商务英语口语900句
 ---
 
+Unit 1 希望与要求
+Unit 2 产品介绍
+Unit 3 业务范围介绍
+Unit 4 承诺
+Unit 5 询盘
+Unit 6 报盘
+Unit 7 还盘
+Unit 8 对还盘的反应
+Unit 9 要求优惠
+Unit 10 给予优惠
+Unit 11 双方让步
+Unit 12 订货及确认
+Unit 13 请求代理并说明代理理由和代理能力
+Unit 14 对代理请求的回应
+Unit 15 代理条件和要求
+Unit 16 合同
+Unit 17 卖方对支付方式的要求
+Unit 18 买方的支付方式
+Unit 19 保险
+Unit 20 对包装的建议及要求
+Unit 21 告知客户包装所用材料、方式及其质量保证
+Unit 22 货运通知
+Unit 23 货运要求及答复
+Unit 24 催运货物并告知货物迟到结果
+Unit 25 仲裁
+Unit 26 索赔理由及依据
+Unit 27 索赔内容及金额
+Unit 28 对索赔要求的回应
+Unit 29 引进技术的要求
+Unit 30 技术引进的方式及费用
+
 # Unit 1 Hope and Request
 1. We'd like to express our desire to establish business relations with you on the basis of equality, mutual benefit and the exchange of needed goods.
 2. In order to extend our export business to your country, we wish to enter into direct business relations with you.
