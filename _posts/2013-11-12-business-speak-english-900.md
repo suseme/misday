@@ -3,38 +3,38 @@ layout: post
 title: 商务英语口语900句
 ---
 
-Unit 1 希望与要求
-Unit 2 产品介绍
-Unit 3 业务范围介绍
-Unit 4 承诺
-Unit 5 询盘
-Unit 6 报盘
-Unit 7 还盘
-Unit 8 对还盘的反应
-Unit 9 要求优惠
-Unit 10 给予优惠
-Unit 11 双方让步
-Unit 12 订货及确认
-Unit 13 请求代理并说明代理理由和代理能力
-Unit 14 对代理请求的回应
-Unit 15 代理条件和要求
-Unit 16 合同
-Unit 17 卖方对支付方式的要求
-Unit 18 买方的支付方式
-Unit 19 保险
-Unit 20 对包装的建议及要求
-Unit 21 告知客户包装所用材料、方式及其质量保证
-Unit 22 货运通知
-Unit 23 货运要求及答复
-Unit 24 催运货物并告知货物迟到结果
-Unit 25 仲裁
-Unit 26 索赔理由及依据
-Unit 27 索赔内容及金额
-Unit 28 对索赔要求的回应
-Unit 29 引进技术的要求
-Unit 30 技术引进的方式及费用
+Unit 1 希望与要求  
+Unit 2 产品介绍  
+Unit 3 业务范围介绍  
+Unit 4 承诺  
+Unit 5 询盘  
+Unit 6 报盘  
+Unit 7 还盘  
+Unit 8 对还盘的反应  
+Unit 9 要求优惠  
+Unit 10 给予优惠  
+Unit 11 双方让步  
+Unit 12 订货及确认  
+Unit 13 请求代理并说明代理理由和代理能力  
+Unit 14 对代理请求的回应  
+Unit 15 代理条件和要求  
+Unit 16 合同  
+Unit 17 卖方对支付方式的要求  
+Unit 18 买方的支付方式  
+Unit 19 保险  
+Unit 20 对包装的建议及要求  
+Unit 21 告知客户包装所用材料、方式及其质量保证  
+Unit 22 货运通知  
+Unit 23 货运要求及答复  
+Unit 24 催运货物并告知货物迟到结果  
+Unit 25 仲裁  
+Unit 26 索赔理由及依据  
+Unit 27 索赔内容及金额  
+Unit 28 对索赔要求的回应  
+Unit 29 引进技术的要求  
+Unit 30 技术引进的方式及费用  
 
-# Unit 1 Hope and Request
+# Unit 1: Hope and Request
 1. We'd like to express our desire to establish business relations with you on the basis of equality, mutual benefit and the exchange of needed goods.
 2. In order to extend our export business to your country, we wish to enter into direct business relations with you.
 3. Our hope is to establish mutual beneficial trading relations between us.
@@ -258,7 +258,7 @@ Unit 30 技术引进的方式及费用
 200.We think your offer is not favorable for us to increase the market share on our end.
 
 # Unit 8: 对还盘的反应
-Part one.
+## Part one.
 201.Your counter offer is much too low, especially considering the small amount of your order.
 202.Our prices fixed on a reasonable level.
 203.Our products are modestly priced.
@@ -610,10 +610,10 @@ appointed you as our agent.
 当你方市场情况变好时我们再讨论代理事宜可以吗
 
 # Unit 15: 理条件和要求
-Part one
-411. We can’t give you exclusive agency of the whole European market without having the slightest idea of your possible annual marketing turnover.
+## Part one
+411.We can’t give you exclusive agency of the whole European market without having the slightest idea of your possible annual marketing turnover.
 在一点都不了解贵方能做得到的年销售额的情况下，我方无法给你们整个欧洲市场的独家代理权
-412. Before we know your sales volume ,your plan for promotion and import license’s conditions, it is rather difficult for us to consider your proposal.
+412.Before we know your sales volume ,your plan for promotion and import license’s conditions, it is rather difficult for us to consider your proposal.
 在了解贵方的销售额、促销计划以及进口许可的情况之前，我方很难考虑贵方的建议
 413.We have noted your quest to act as our agent in your district, but before going further into the matter, we should like to know more about your market.
 我芳已获悉贵方要在你们的地区做我方代理的请求，但在进一步研究此事前，我方想更多地了解贵方的市场情况
@@ -673,7 +673,7 @@ Part one
 希望贵方能严格遵守代理合同中的所有条款
 
 # Unit 16: 合同
-Part One
+## Part One
 441.We are satisfied with the terms of this contract for the most part, but we feel that your terms of payment are too severe.
 对合同的条款，我方大致上满意，但是贵方的支付条款似乎太苛刻了
 442.We would like to have another discussion of these conditions in the afternoon before there are finally included in the contract.
@@ -800,7 +800,6 @@ Part One
 每批货物的信用证应在发货日前30天寄达我方
 502.15-20 days prior to the date of delivery, you should pay against the presentation of the drawn on the opening bank.
 在交货期15-20天前，贵方应凭开户银行开具的汇票付款
-
 503.The payment shall be made by telegraphic transfer to the bank of China , Head office ,Beijing, China, for our account, within five business days after the contract signature date.
 货款必须在合同签署日后的第5个营业日内，用电汇方式汇入我方在中国银行，中国北京总行的帐户
 504.Advance payment of 25% of the contract value shall be paid within 30 days of the date of signing the contract.
@@ -987,8 +986,7 @@ Part One
 你们的正常包装仍是每箱10打吗
 590.We hope that the beer is packed six bottles in a box which should be beautiful, durable and easy to carry.
 我们希望啤酒6瓶一箱，这样会美观、耐用并易于搬运
-
-Part Two
+## Part Two
 591. The packing must be able to withstand rough handling.
 包装必须经受住野蛮搬运
 592.When packing, please take into account that the boxes must be able to withstand rough handing and transport over very bad roads.
@@ -1072,8 +1070,7 @@ Unit Twenty-one 告知客户包装所用材料、方式及其质量保证
 如果用纸箱包装，任何偷窃痕迹都很明显，因此保险公司很易做出赔偿
 630.Such packing has also been accepted by our insurance company for WPA and TPND.
 这样的包装保平安险和盗窃和提货不着险已被保险公司接受。
-
-Part Two
+## Part Two
 631. The cartons are comparatively light, and therefore easy to handle.
 纸箱相对轻便，因此易于搬运
 632. It is our usual way to pack these goods in cartons.
@@ -1267,7 +1264,7 @@ goods if we fail to receive the goods before this week.
 一旦你延迟发货，烟花可能对我们毫无用处。
 
 # Unit 25: 仲裁
-Part One
+## Part One
 721 We should settle the dispute through negotiations without resorting to legal proceeding.
 我们应该通过促裁解决争议而非法律途径
 722.We prefer to resolve disputes by amicable , nonbonding conciliation between two parites.
@@ -1298,8 +1295,7 @@ Part One
 根据合同败诉方应承担仲裁费用
 735.We require you to compensate us with an amount of losses totaling ￡748,000 caused by your failure to execute the contract and with all the expenses arising from this arbitration.
 我方要求你方赔偿因你方未履行合和所有仲裁费用，共计748,000美金
-
-Part Two
+## Part Two
 736.If any dispute should arise over the inspection, we may submit it for arbitration.
 如果因检验引起的任何争议，我们可接受仲裁
 737.If you are not prepare to compensate our loss, we suggest that case be submitted for arbitration.
@@ -1333,7 +1329,7 @@ handle the dispute without bias or partiality.
 我们现在正式向仲裁委员会就此争议仲裁
 
 # Unit 26: 索赔理由及依据
-Part One
+## Part One
 751.It was found by the inspection that there is a difference of 35 Kg between the actual landed weight and the invoiced weight.
 经检查发现，实际重量和发票上的重量相差35公斤
 752. The landed goods were quite different from what expected.
@@ -1374,8 +1370,7 @@ Part One
 经检查发现，近20%的包装破损，显然是错误的包装
 770.The survey report can certify that the weight shortage was caused by improper packing.
 检查报告证明由不合适的包装造成短重
-
-Part Two
+## Part Two
 771. A close inspection and a careful test by the China National Import & Export Commodity Inspection Bureau showed that some amplifiers are inferior quality.
 经中国出入境检验检疫局密切检查和认真测试，表明一些话筒存在质量缺陷
 772.We find that the quality, quantity and weight of the goods are not in conformity with those stipulated in this contract after re-inspection by the China Commodity Inspection Bureau, we are now returning the goods to you and lodge claims against you for compensation of losses.
@@ -1419,7 +1414,7 @@ Part Two
 我们很遗憾地通知你我们被迫归还不合格品，费用由你方支付
 
 # Unit 27: 索赔内容及金额
-Part One
+## Part One
 791.The goods we ordered on February 12 have arrived in a damaged condition.
 我们2月12日订购的货物于破损情况下抵达
 792.A number of cases are broken and the contents are badly damaged.
@@ -1460,8 +1455,7 @@ Part One
 我们就肥料的短重向你方索赔
 810.We have to ask for compensation of the loss incurred as a result of the interior quality of the goods concerned.
 我们就因为相关产品缺陷产生的损失提出索赔
-
-Part Two
+## Part Two
 811.We hope indemnification will be made for all expenses incurred.
 我们希望对所有产生的费用赔偿
 812.On the basis of the survey report, we register our claim with you for $3,000.
@@ -1504,7 +1498,7 @@ Part Two
 我们坚持你方发来优质产品来更换次品
 
 # Unit 28: 对索赔要求的回应
-Part One
+##　Part One
 831.We accept the claim, but can you tell me how much you want us to compensate you for the loss?
 我们接受索赔，但你能告诉我赔偿你多少损失
 832.We will give your request for claims immediate attention.
@@ -1535,8 +1529,7 @@ Part One
 我们将汇损失赔偿金额2,000美金
 845.We are willing to give you an 18% allowance of the next shipment to compensate you for the loss.
 我们愿在下批货给你18%的补偿来赔偿你方损失
-
-Part Two
+## Part Two
 846.You should claim compensation from the insurance company .
 你应该向保险公司索赔
 847.A thorough examination showed that the broken bags were due to improper packing, for which the suppliers should be held responsible.
@@ -1571,60 +1564,45 @@ Part Two
 # Unit 29: 对引进技术的要求
 861.The technology we acquire should be truly advanced and appropriate to China’s needs.
 我们要求的技术必须真正先进并适合中国需要
-862.The technology you transfer to us should enable the venture’s products to be competitive
-on the international market.
+862.The technology you transfer to us should enable the venture’s products to be competitive on the international market.
 你方给我们的技术应使合资产品在国际市场上有竞争力
-863.The know-how we import should be directed toward manufacturing products suitable for
-export.
+863.The know-how we import should be directed toward manufacturing products suitable for export.
 我们进口的技术应针对适合出口的生产性产品
-864.The advanced technology we import should improve markedly the quality of existing
-products.
+864.The advanced technology we import should improve markedly the quality of existing products.
 我们进口的先进技术应明显提高现有产品产品质量
 865.The technology provided to the joint venture must be integrated, precise and reliable.
 提供给合资企业的技术必须完整、精确和可靠
-866.The technology we acquire shall enable our products to achieve significant economic
-results.
+866.The technology we acquire shall enable our products to achieve significant economic results.
 我们获得的技术应能使我们的产品获得明显的经济效益
-867.Your technology should be advanced, reliable , and helpful to the development of our
-export-oriented economy.
+867.Your technology should be advanced, reliable , and helpful to the development of our export-oriented economy.
 你方的技术应该先进、可靠，并有利于出口型经济的发展
 868.The import know-how should help improve the quality of our products.
 进口的技术应该帮助提升我们的产品质量
 869.You should supply us with advanced techniques and modernized management methods.
 你方应该向我方提供先进的技术和现代化管理模式
-870.Please provide us with the necessary technical data and, if possible, some drawings
-connected with the design and building of the new equipment.
+870.Please provide us with the necessary technical data and, if possible, some drawings connected with the design and building of the new equipment.
 请提供给我主必要的技术数据，如果可能的话，请提供一些新设备的设计方案和建造图纸
-871.For the success of our joint venture, it’s extremely important for us to acquire the
-information concerning the product design and the production processes.
+871.For the success of our joint venture, it’s extremely important for us to acquire the information concerning the product design and the production processes.
 对我们合资企业的成功而言，获得产品设计和产品工艺而言尤为重要
-872.You should give us as soon as possible the blueprint plan for the introduction of the
-equipment and a report on a survey of the feasibility entire plan.
+872.You should give us as soon as possible the blueprint plan for the introduction of the equipment and a report on a survey of the feasibility entire plan.
 你应该尽早地给我们设备介绍的蓝图计划和整个计划可行性调查的报告
 873.Please turn over these technical data to our side at the earliest possible time.
 请尽早移交这些技术数据给我们
 874.Shall we discuss technology transfer brief now?
 我们现在可以谈论技术移交概要吗
-875.We want to import advanced technology from you in order to compete successfully on
-the international market.
+875.We want to import advanced technology from you in order to compete successfully on the international market.
 我们想从你方进口先进技术以在国际市场上成功竞争
-876.Since the existing know-how transferred by your company will soon become obsolete,
-we expect that you will continue offering us your improved technological expertise.
+876.Since the existing know-how transferred by your company will soon become obsolete, we expect that you will continue offering us your improved technological expertise.
 既然你方移交给我们的现有技术很快过时，我们期望你方继续提供先进的技术
 877.By advanced technology, we mean both industrial property and know-how.
 至于先进的技术，我们是指工业财产和技术
-878.If the documents you send us cannot be used, or if one item or more mentioned in the
-packing list should be lacking, you have to send all the documents or the lacking items at your
-cost , within 45 days from the date you receive the written notice from us.
+878.If the documents you send us cannot be used, or if one item or more mentioned in the packing list should be lacking, you have to send all the documents or the lacking items at your cost , within 45 days from the date you receive the written notice from us.
 如果你发给我们的文件不能使用，或者如果箱单注明的一款或多款遗漏，你必须在接我方书
 面通知日起45日内将所有文件或遗漏的文件发给我们，费用自理。
-879.If any serious difficulties arise with regard to the working of the engines which we built,
-and if it is proved that such difficulties are at fault in any data, drawings or documents you
-sent us, you would , at your expense, correct such faulty data, drawings or documents.
+879.If any serious difficulties arise with regard to the working of the engines which we built, and if it is proved that such difficulties are at fault in any data, drawings or documents you sent us, you would , at your expense, correct such faulty data, drawings or documents.
 如果任何关于我们生产的由发动机工作引起的严重困难，或这些困难是由你们发来的任何错
 误数据、图纸或文件引起，你必须纠正这些错误的数据、图纸或文件，费用自理
-880.If the technical documents provided by you are not applicable to our actual production
-condition, you are obliged to assist us in modifying the technical documents.
+880.If the technical documents provided by you are not applicable to our actual production condition, you are obliged to assist us in modifying the technical documents.
 如果你提供给我们的技术文件不适用于我们的实际生产，你必须帮助我们修改技术文件
 
 # Unit 30: 技术引进的方式及费用
@@ -1632,7 +1610,7 @@ condition, you are obliged to assist us in modifying the technical documents.
 我们将在文件空运7天前告诉你重量、尺寸、箱子号码、图纸成本和其它的文件
 882.Drawings and technical documents will be sent to you by registered airmail.
 图纸和技术文件将由挂号空邮寄给你
-883.Expenses for the technology transfer shall be fair and reasonable .
+883.Expenses for the technology transfer shall be fair and reasonable.
 技术移交的费用将会公平和合理
 884.The royalty rate shall not be higher than the standard international rate.
 专利费不应高于国际标准费用
@@ -1668,4 +1646,3 @@ condition, you are obliged to assist us in modifying the technical documents.
 首先让我们开始移交有关发动机的图纸、技术数据和其它的文件
 900.You will undertake the obligations to deliver to us the drawing, information and other data.
 你方应承担移交图纸、信息和其它数据的义务
-
