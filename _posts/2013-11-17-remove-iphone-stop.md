@@ -12,9 +12,9 @@ title: 解除Iphone停用
     <dict>
     ...
     	<key>SBDeviceLockBlockTimeIntervalSinceReferenceDate</key>
-    	<real>0</real> # 已输错的次数
+    	<real>0</real> # 锁定时间
     	<key>SBDeviceLockFailedAttempts</key>
-    	<integer>0</integer> # 锁定时间
+    	<integer>0</integer> # 已输错的次数
     ...
     </dict>
     
