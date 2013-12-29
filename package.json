@@ -1,0 +1,11 @@
+{
+  "name": "KUKLINSKI",
+  "version": "1.0.0",
+  "title": "KUKLINSKI",
+  "homepage": "http://www.kuklinski.com.br",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

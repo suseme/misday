@@ -1,39 +1,25 @@
 ---
 layout: index
-title: MISDAY
+title: HOME
 ---
-{% assign first_post = site.posts.first %}
-
-<div id="header">
-<h1>{{ page.title }}</h1>
+{% for post in paginator.posts %}
+<div class="row">
+  <div class="block2 middle posts">
+    <p><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></p>
+    <p class="post-date">{{ post.date | date_to_string }} - <em>Author: <a href="/" class="author">{{ site.authors }}</a></em></p>
+    <p class="post-description hide-mobile">{{ post.content | truncate: 200 }}</p>
+    <p class="txt-center"><a href="{{ post.url }}" class="bt-success">Read more...</a></p>
+    <br />
+    <hr />
+  </div>
+</div>
+{% endfor %}
+<div class="block2 middle posts">
+{% for post in site.posts %}
+  <p><a href="{{ post.url }}" class="post-title">{{ post.date | date_to_string }} >> {{ post.title }}</a></p>
+{% endfor %}
 </div>
 
-<div id="content">
 
-<div id="home_left" class="home_box">
-<h2> Latest Post </h2>
 
-	<div class="post">
-		<h1> {{ first_post.title }} </h1>
-		<div class="body">
-			<p>
-			{{ first_post.content | truncate: 450 }}
-			</br>
-			<a id="more" href="{{ first_post.url }}">Read More &raquo;</a>
-			</p>
-		</div>
-	</div>
-</div>
 
-<div id="home_right" class="home_box">
-	<h2>New Posts</h2>
-	<ul>
-		{% for post in site.posts %}
-			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-</div>
-
-<div class="clearfix"></div>
-
-</div>

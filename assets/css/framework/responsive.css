@@ -1,0 +1,83 @@
+/*
+Syntax error: Undefined mixin 'grid'.
+        on line 21 of /home/webserver/Scrath2/scss/framework/responsive.scss, in `grid'
+        from line 21 of /home/webserver/Scrath2/scss/framework/responsive.scss
+
+16: 			} @else if $i == 2 {
+17: 				width: 65.81%;
+18: 			} @else {
+19: 				width: 100%;
+20: 			}
+21: 			@include grid;
+22: 			@include fullimg;
+23: 		} 
+24: 
+25: 		// Spacing between grids
+26: 		.block#{$i}:nth-of-type(#{$i}n + 2) {
+
+Backtrace:
+/home/webserver/Scrath2/scss/framework/responsive.scss:21:in `grid'
+/home/webserver/Scrath2/scss/framework/responsive.scss:21
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:188:in `block (3 levels) in visit_for'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:188:in `map'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:188:in `block (2 levels) in visit_for'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:185:in `each'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:185:in `map'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:185:in `block in visit_for'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:184:in `visit_for'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:362:in `visit_media'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/home/gustavokuklinski/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'grid'.\A         on line 21 of /home/webserver/Scrath2/scss/framework/responsive.scss, in `grid'\A         from line 21 of /home/webserver/Scrath2/scss/framework/responsive.scss\A \A 16: 			} @else if $i == 2 {\A 17: 				width: 65.81%;\A 18: 			} @else {\A 19: 				width: 100%;\A 20: 			}\A 21: 			@include grid;\A 22: 			@include fullimg;\A 23: 		} \A 24: \A 25: 		// Spacing between grids\A 26: 		.block#{$i}:nth-of-type(#{$i}n + 2) {"; }
