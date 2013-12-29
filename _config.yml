@@ -14,4 +14,4 @@ permalink: "/:categories/:title/"
 
 exclude: [CNAME, npm-debug.log, node_modules]
 
-google_analytics: UA-0000-00
+google_analytics: UA-28333273-1
