@@ -29,15 +29,10 @@ layout: default
   {% endfor %}
 
   <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
-    <tbody>
+    <ul >
     {% for post in site.posts %}
-      <tr>
-        <td class="mdl-data-table__cell--non-numeric"><a href="{{ post.url }}">{{ post.title }}</a></td>
-        <td class="mdl-data-table__cell--non-numeric">{{ post.date | date: "%b %-d, %Y" }}</td>
-      </tr>
+        <li ><a href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}</a></li>
     {% endfor %}
-    </tbody>
-  </table>
+    </ul>
   </section>
 </div>
