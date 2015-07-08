@@ -1,69 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>{{ page.title }} - {{ site.name}}</title>
-        <meta name="keywords" content="{{ page.keywords }}" />
-        <meta name="description" content="{{ page.description }}" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="{{ site.authors }}" />
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/syntax.css">
+<html>
+  {% include head.html %}
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 
-    </head>
-    <body>
-      <header class="container-fluid">
-        <div class="row">
-          <div class="block3 
-            {% if page.title == "WORK--" %}
-              header-portfolio
-            {% elsif page.title == "CONTACTS--" %}
-              header-contato
-            {% else %}
-              header-home
-            {% endif %}
-            ">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <h3 class="subtitle">:: {{ site.subtitle }} ::</h3>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include header.html %}
 
-            <div class="block3 menu begin txt-center">
-              <a href="/">home</a>
-              <a href="/products.html">work</a>
-              <a href="/contacts.html">contact</a>
-            </div> 
-          </div>  
-        </div>
-      </header>
-      
-      <section class="container-fix">
-        <div class="row">
-          {{ content }}
-        </div>
-      </section>
-
-      <footer class="container-fluid footer">
-        <br /><br />
-        <div class="container-fix">
-          <div class="row">
-            <p class="about-text">
-                <span class="icon-github"></span>
-                CONTENT @ GITHUB.COM
-            </p>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
           </div>
         </div>
-      </footer>
-
-      <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      </script>
-    </body>
+        
+        {% include footer.html %}
+      </main>
+    </div>
+  </body>
 </html>
