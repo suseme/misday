@@ -80,7 +80,7 @@ Thrown by a class loader when a class file has an illegal format or if the data 
 由类加载器在一个类文件格式非法或其包含的数据无法被解析为一个类时抛出。
 
 #15.ExceptionInInitializerError
-Thrown when an exception occurs during class initialization.
+Thrown when an exception occurs during class initialization.  
 15. 初始化错误异常
 当类初始化发生异常时抛出。
 
