@@ -3,80 +3,80 @@ layout: post
 title: Android各种exceptions
 ---
 
-Exceptions来自http://developer.android.com/reference/packages.html。
-转载请注明出处，用于商业用途请联系作者。
+Exceptions来自http://developer.android.com/reference/packages.html。  
+转载请注明出处，用于商业用途请联系作者。 
 
 #1.AnnotationFormatError
 Indicates that an annotation in the binary representation of a class is syntactically incorrect and the annotation parser is unable to process it.
-This exception is unlikely to ever occur, given that the code has been compiled by an ordinary Java compiler.
-1.注解格式错误
-指出在二进制表示的一个类中的注解在语句构成上是不正确的，注解解释器无法处理它。这个异常不是永远发生，指出代码是由一个普通的Java编译器编译的。
+This exception is unlikely to ever occur, given that the code has been compiled by an ordinary Java compiler.  
+1.注解格式错误  
+指出在二进制表示的一个类中的注解在语句构成上是不正确的，注解解释器无法处理它。这个异常不是永远发生，指出代码是由一个普通的Java编译器编译的。 
 
 #2.AssertionError
-Thrown when an assertion has failed.
-2. 断言错误
-当断言失败时抛出。
+Thrown when an assertion has failed.  
+2. 断言错误  
+当断言失败时抛出。 
 
 #3.AssertionFailedError
-Thrown when an assertion failed.
-3. 断言失败错误
-当断言失败时抛出。
+Thrown when an assertion failed.  
+3. 断言失败错误  
+当断言失败时抛出。 
 
 #4.CoderMalfunctionError
-A CoderMalfunctionError is thrown when the encoder/decoder is malfunctioning.
-4. 编码器故障错误
+A CoderMalfunctionError is thrown when the encoder/decoder is malfunctioning.  
+4. 编码器故障错误  
 CoderMalfunctionError在encoder/decoder发生故障时抛出。
 
 #5.FactoryConfigurationError
-Thrown when a problem with configuration with the Parser Factories exists.
-This error will typically be thrown when the class of a parser factory specified in the system properties cannot be found or instantiated.
+Thrown when a problem with configuration with the Parser Factories exists. 
+This error will typically be thrown when the class of a parser factory specified in the system properties cannot be found or instantiated.  
 当解析器工厂的配置存在问题时抛出该异常。当找不到系统属性中指定的解析器工厂的类时，或者该类不能被实例化时，通常抛出此错误。 
 
 #6.IOError
-This error is thrown when a severe I/O error has happened.
-6. IO错误
-当服务器的I/O错误发生时抛出。
+This error is thrown when a severe I/O error has happened.  
+6. IO错误  
+当服务器的I/O错误发生时抛出。 
 
 #7.LinkageError
-LinkageError is the superclass of all error classes that occur when loading and linking class files.
-LinkageError是所有加载和链接类文件时遇到错误的类的父类。
+LinkageError is the superclass of all error classes that occur when loading and linking class files.  
+LinkageError是所有加载和链接类文件时遇到错误的类的父类。 
 
 #8.ServiceConfigurationError
-Thrown when a service provider can't be loaded by ServiceLoader.
-8. 服务配置错误
+Thrown when a service provider can't be loaded by ServiceLoader.  
+8. 服务配置错误  
 当ServiceLoader无法加载一个service provider时抛出
 
 #9.ThreadDeath
-ThreadDeath is thrown when a thread stops executing. It is used to aid in the orderly unrolling of the thread's stack (eg. cleanup of monitors).
+ThreadDeath is thrown when a thread stops executing. It is used to aid in the orderly unrolling of the thread's stack (eg. cleanup of monitors).  
 当线程停止运行时抛出。这是用于保持线程堆栈的有序（比如，清除监视）。
 
 #10.TransformerFactoryConfigurationError
 Thrown when a problem with configuration with the Transformer Factories exists.
-This error will typically be thrown when the class of a transformation factory specified in the system properties cannot be found or instantiated.
+This error will typically be thrown when the class of a transformation factory specified in the system properties cannot be found or instantiated.  
 当通过 Transformer Factories 进行的配置存在问题时抛出此异常。当找不到或不能实例化系统属性中指定的转换工厂类时，通常抛出此错误。
 
 #11.VirtualMachineError
-VirtualMachineError is the superclass of all error classes that occur during the operation of the VM.
-11. 虚拟机错误
-VirtualMachineError是所有在操作虚拟机时发生的错误类的父类。
+VirtualMachineError is the superclass of all error classes that occur during the operation of the VM.  
+11. 虚拟机错误  
+VirtualMachineError是所有在操作虚拟机时发生的错误类的父类。 
 
 #12.AbstractMethodError
 Thrown by the VM when an abstract method is called.
-Note that this can only occur when inconsistent class files have been loaded, since invoking an abstract method is a compile time error.
-12. 抽象方法错误
-当一个抽象方法被调用时由虚拟机抛出。
-注意，这只会在动态加载类文件时会发生，因为调用抽象方法错误是一个编译时的错误。
+Note that this can only occur when inconsistent class files have been loaded, since invoking an abstract method is a compile time error.  
+12. 抽象方法错误  
+当一个抽象方法被调用时由虚拟机抛出。  
+注意，这只会在动态加载类文件时会发生，因为调用抽象方法错误是一个编译时的错误。 
 
 #13.ClassCircularityError
 Thrown when the VM notices that an attempt is made to load a class which would directly or indirectly inherit from one of its subclasses.
-Note that this error can only occur when inconsistent class files are loaded, since it would normally be detected at compile time.
-13. 类循环依赖错误
-当VM（虚拟机）意识到企图加载一个类，会直接或间接地继承它的子类。
+Note that this error can only occur when inconsistent class files are loaded, since it would normally be detected at compile time.  
+13. 类循环依赖错误  
+当VM（虚拟机）意识到企图加载一个类，会直接或间接地继承它的子类。  
 注意，这只会在动态加载类文件时会发生，因为正常的话在编译时就会检测到这个错误。
 
 #14.ClassFormatError
-Thrown by a class loader when a class file has an illegal format or if the data that it contains can not be interpreted as a class.
-14. 类格式错误
+Thrown by a class loader when a class file has an illegal format or if the data that it contains can not be interpreted as a class.  
+14. 类格式错误  
 由类加载器在一个类文件格式非法或其包含的数据无法被解析为一个类时抛出。
 
 #15.ExceptionInInitializerError
@@ -85,8 +85,8 @@ Thrown when an exception occurs during class initialization.
 当类初始化发生异常时抛出。
 
 #16.GenericSignatureFormatError
-Indicates that a malformed signature has been encountered via a reflective method.
-16. 签名格式错误
+Indicates that a malformed signature has been encountered via a reflective method.  
+16. 签名格式错误  
 当需要解释类型、方法或构造方法的一般签名信息的反射方法遇到语法错误的签名属性时，抛出该错误。
 
 #17.IllegalAccessError
@@ -94,163 +94,163 @@ Thrown when the runtime notices that a program tries to access a class or member
 The superclass or an implemented interface is not accessible in the subclass.
 Reading or writing an inaccessible field, e.g., a private field in another class.
 Invoking an inaccessible method, e.g., the constructor of an inaccessible class, or a private method of another class.
-Note that this can only occur when inconsistent class files have been loaded.
-17. 非法访问错误
-当应用程序试图访问或修改它不能访问的字段，或调用它不能访问的方法时，抛出该异常。
-例如：
-父类或实现的接口是无法在子类中访问的。
-读或写一个不能访问的域，比如，另一个类中的私有域。
-调用一个不能访问的方法，比如，不能访问的累的构造器，或另一个类中的私有方法。
+Note that this can only occur when inconsistent class files have been loaded.  
+17. 非法访问错误  
+当应用程序试图访问或修改它不能访问的字段，或调用它不能访问的方法时，抛出该异常。  
+例如：  
+父类或实现的接口是无法在子类中访问的。  
+读或写一个不能访问的域，比如，另一个类中的私有域。  
+调用一个不能访问的方法，比如，不能访问的累的构造器，或另一个类中的私有方法。  
 注意，这只会在动态加载类文件时会发生。
 
 #18.IncompatibleClassChangeError
-IncompatibleClassChangeError is the superclass of all classes which represent errors that occur when inconsistent class files are loaded into the same running image.
-18. 不兼容的类更改错误
+IncompatibleClassChangeError is the superclass of all classes which represent errors that occur when inconsistent class files are loaded into the same running image.  
+18. 不兼容的类更改错误  
 IncompatibleClassChangeError是当动态加载累文件到相同的运行时场景时的所有表示错误的类的父类。
 
 #19.InstantiationError
 Thrown when the VM notices that a program tries to create a new instance of a class which has no visible constructors from the location where new is invoked.
-Note that this can only occur when inconsistent class files are being loaded.
-19. 实例化错误
-当虚拟机（VM）注意到应用程序试图使用 Java 的 new 结构来实例化一个类而其却没有一个可见的构造器时抛出该异常。
+Note that this can only occur when inconsistent class files are being loaded.  
+19. 实例化错误  
+当虚拟机（VM）注意到应用程序试图使用 Java 的 new 结构来实例化一个类而其却没有一个可见的构造器时抛出该异常。  
 注意，这只会在动态加载类文件时会发生。
 
 #20.InternalError
-Thrown when the VM notices that it has gotten into an undefined state.
-20. 内部错误
+Thrown when the VM notices that it has gotten into an undefined state.  
+20. 内部错误  
 当虚拟机（VM）注意到其进入一个未定义的状态时抛出该异常。
 
 #21.NoClassDefFoundError
-Thrown when the VM is unable to locate a class which it has been asked to load.
-21. 未定义类错误
+Thrown when the VM is unable to locate a class which it has been asked to load.  
+21. 未定义类错误  
 当虚拟机（VM）无法定位其要加载的类时抛出。
 
 #22.NoSuchFieldError
 Thrown when the VM notices that a program tries to reference, on a class or object, a field that does not exist.
-Note that this can only occur when inconsistent class files are being loaded.
-22. 无此字段错误
-当虚拟机（VM）注意到程序试图引用一个类或对象的某个字段不存在是抛出。
+Note that this can only occur when inconsistent class files are being loaded.  
+22. 无此字段错误  
+当虚拟机（VM）注意到程序试图引用一个类或对象的某个字段不存在是抛出。  
 注意，这只会在动态加载类文件时会发生。
 
 #23.NoSuchMethodError
-Thrown when the VM notices that a program tries to reference, on a class or object, a method that does not exist.
-23. 无此方法错误
+Thrown when the VM notices that a program tries to reference, on a class or object, a method that does not exist.  
+23. 无此方法错误  
 当虚拟机（VM）注意到程序试图引用一个类或对象的某个字段不存在是抛出。
 
 #24.OutOfMemoryError
-Thrown when a request for memory is made that can not be satisfied using the available platform resources.
-24. 内存不足错误
+Thrown when a request for memory is made that can not be satisfied using the available platform resources.  
+24. 内存不足错误  
 当现有平台资源无法满足请求的内存时抛出
 
 #25.StackOverflowError
-Thrown when the depth of the stack of the running program exceeds some platform or VM specific limit.
-25. 堆栈溢出错误
+Thrown when the depth of the stack of the running program exceeds some platform or VM specific limit.  
+25. 堆栈溢出错误  
 当运行程序的堆栈的深度超过某些平台或虚拟机（VM）的限定时抛出。
 
 #26.UnknownError
-Thrown when the VM must throw an error which does not match any known exceptional condition.
-26. 未知错误
+Thrown when the VM must throw an error which does not match any known exceptional condition.  
+26. 未知错误  
 当虚拟机（VM）抛出一个未知错误时抛出该异常。
 
 #27.UnsatisfiedLinkError
-Thrown when an attempt is made to invoke a native for which an implementation could not be found.
-27. 不满足链接错误
+Thrown when an attempt is made to invoke a native for which an implementation could not be found.  
+27. 不满足链接错误  
 当试图调用一个native方法而其实现无法找到是抛出。
 
 #28.UnsupportedClassVersionError
-Thrown when an attempt is made to load a class with a format version that is not supported by the VM.
-28. 不支持类版本错误
+Thrown when an attempt is made to load a class with a format version that is not supported by the VM.  
+28. 不支持类版本错误  
 当试图加载一个类而其格式版本不被虚拟机（VM）支持时抛出。
 
 #29.VerifyError
-Thrown when the VM notices that an attempt is made to load a class which does not pass the class verification phase.
-29. 验证错误
+Thrown when the VM notices that an attempt is made to load a class which does not pass the class verification phase.  
+29. 验证错误  
 当虚拟机（VM）注意到试图加载一个类而其无法通过类验证时抛出。
 
 #30.ZipError
-Thrown when an unrecoverable zip error has occurred.
-30. ZipError
+Thrown when an unrecoverable zip error has occurred.  
+30. ZipError  
 当发生不可恢复的zip错误时抛出。
 
 #31.AccountsException
 
 #32.AclNotFoundException
-The exception, that is thrown when a reference to a non-existent Access Control List (ACL) is made.
+The exception, that is thrown when a reference to a non-existent Access Control List (ACL) is made.  
 当引用不存在的 ACL（访问控制列表）时抛出该异常。
 
 #33.AndroidException
-Base class for all checked exceptions thrown by the Android frameworks.
+Base class for all checked exceptions thrown by the Android frameworks.  
 Android frameworks抛出的所有异常的基类。
 
 #34.BackingStoreException
-An exception to indicate that an error was encountered while accessing the backing store.
+An exception to indicate that an error was encountered while accessing the backing store.  
 当访问内部存储反生错误时抛出该异常。
 
 #35.BrokenBarrierException
-Exception thrown when a thread tries to wait upon a barrier that is in a broken state, or which enters the broken state while the thread is waiting.
+Exception thrown when a thread tries to wait upon a barrier that is in a broken state, or which enters the broken state while the thread is waiting.  
 当线程试图试图等待处于断开状态的 barrier 时，或barrier进入断开状态而线程处于等待状态时，抛出该异常。
 
 #36.CertificateException
-The base class for all Certificate related exceptions.
+The base class for all Certificate related exceptions.  
 所有证书相关的异常的基类。
 
 #37.CloneNotSupportedException
-Thrown when a program attempts to clone an object which does not support the Cloneable interface.
+Thrown when a program attempts to clone an object which does not support the Cloneable interface.  
 当程序试图克隆一个不支持Cloneable接口的对象时抛出该异常。
 
 #38.DataFormatException
-DataFormatException is used to indicate an error in the format of a particular data stream which is to be uncompressed.
+DataFormatException is used to indicate an error in the format of a particular data stream which is to be uncompressed.  
 DataFormatException用于指出欲解压的特定数据流的格式错误。
 
 #39.DatatypeConfigurationException
-Indicates a serious configuration error.
+Indicates a serious configuration error.  
 指示严重的配置错误。
 
 40.DestroyFailedException
-Signals that the destroy() method failed.
+Signals that the destroy() method failed.  
 标志destroy()方法失败。
 
 #41.ErrnoException
 A checked exception thrown when Os methods fail. This exception contains the native errno value, for comparison against the constants in OsConstants,
-should sophisticated callers need to adjust their behavior based on the exact failure.
+should sophisticated callers need to adjust their behavior based on the exact failure.  
 当OS方法失败是抛出。该异常包含原生的errno，对比于OsConstants中的常量，富有经验的调用者需要基于精确失败调整他们的行为。
 
 #42.ExecutionException
-Exception thrown when attempting to retrieve the result of a task that aborted by throwing an exception. This exception can be inspected using the getCause() method.
+Exception thrown when attempting to retrieve the result of a task that aborted by throwing an exception. This exception can be inspected using the getCause() method.  
 当试图获取已通过抛出异常而中止的任务的结果时，抛出此异常。可以使用getCause()方法来检查此异常。
 
 #43.FormatException
 
 #44.GeneralSecurityException
-GeneralSecurityException is a general security exception and the superclass for all security specific exceptions.
+GeneralSecurityException is a general security exception and the superclass for all security specific exceptions.  
 GeneralSecurityException是一个一般的安全异常，并且是所有安全相关的异常的基类。
 
 #45.IOException
-Signals a general, I/O-related error.
+Signals a general, I/O-related error.  
 标志一个一般的I/O相关的错误。
 
 #46.InterruptedException
-Thrown when a waiting thread is activated before the condition it was waiting for has been satisfied.
+Thrown when a waiting thread is activated before the condition it was waiting for has been satisfied.  
 当等待线程在其等待的条件满足前被激活时抛出该异常。
 
 #47.InvalidPreferencesFormatException
-An exception to indicate that the input XML file is not well-formed or could not be validated against the appropriate document type (specified by in the Preferences).
+An exception to indicate that the input XML file is not well-formed or could not be validated against the appropriate document type (specified by in the Preferences).  
 一个异常指示出输入的XML文件不是很好的格式化或者根据适当的文件类型（在Preferences中指定的）能被验证。
 
 #48.JSONException
-Thrown to indicate a problem with the JSON API.
+Thrown to indicate a problem with the JSON API.  
 抛出用于指示出使用JSON API的问题。
 
 #49.KeyChainException
-Thrown on problems accessing the KeyChain.
+Thrown on problems accessing the KeyChain.  
 访问KeyChain发生问题时抛出。
 
 #50.LastOwnerException
-The exception that is thrown when an attempt is made to remove the the last Owner from an Owner.
+The exception that is thrown when an attempt is made to remove the the last Owner from an Owner.  
 当试图删除访问控制列表的最后一个所有者，则抛出该异常。 
 
 #51.MediaCryptoException
-Exception thrown if MediaCrypto object could not be instantiated or if unable to perform an operation on the MediaCrypto object.
+Exception thrown if MediaCrypto object could not be instantiated or if unable to perform an operation on the MediaCrypto object.  
 当MediaCrypto对象无法被实例化，或无法完成对MediaCrypto对象的操作时抛出该异常。
 
 #52.MediaDrmException
@@ -258,47 +258,47 @@ Base class for MediaDrm exceptions
 MediaDrm异常的基类。
 
 #53.NotOwnerException
-The exception that is thrown when an action that requires ownership is attempted by a principal that is not an owner of the object for which ownership is required.
+The exception that is thrown when an action that requires ownership is attempted by a principal that is not an owner of the object for which ownership is required.  
 当只允许对象的所有者修改对象，但是试图进行修改的 principal 不是所有者时，抛出该异常。 
 
 #54.OperationApplicationException
-Thrown when an application of a ContentProviderOperation fails due the specified constraints.
+Thrown when an application of a ContentProviderOperation fails due the specified constraints.  
 当ContentProviderOperation的应用由于特定的约束失败时抛出该异常。
 
 #55.ParseException
-Thrown when the string being parsed is not in the correct form.
+Thrown when the string being parsed is not in the correct form.  
 当字符串解析遇到不正确的格式时抛出该异常。
 
 #56.ParserConfigurationException
-Indicates a serious configuration error.
+Indicates a serious configuration error.  
 指示一个严重的配置错误。 
 
 #57.PrivilegedActionException
-Legacy security code; do not use.
+Legacy security code; do not use.  
 遗留的安全代码，不使用。
 
 #58.ReflectiveOperationException
-Superclass of exceptions related to reflection.
+Superclass of exceptions related to reflection.  
 反射相关的异常的基类。
 
 #59.RuntimeException
-RuntimeException is the superclass of all classes that represent exceptional conditions which occur as a result of executing an application in the VM.
+RuntimeException is the superclass of all classes that represent exceptional conditions which occur as a result of executing an application in the VM.  
 RuntimeException是所有运行时异常类的父类。
 
 #60.SAXException
-Encapsulate a general SAX error or warning.
+Encapsulate a general SAX error or warning.  
 封装一般的 SAX 错误或警告。
 
 #61.SQLException
-An exception that indicates a failed JDBC operation.
+An exception that indicates a failed JDBC operation.  
 指示出JDBC操作失败的异常。
 
 #62.SipException
-Indicates a general SIP-related exception.
+Indicates a general SIP-related exception.  
 指示一般SIP相关的异常。
 
 #63.TimeoutException
-Exception thrown when a blocking operation times out.
+Exception thrown when a blocking operation times out.  
 阻塞操作超时时，抛出该异常。
 
 #64.TooManyListenersException
