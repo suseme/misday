@@ -13,3 +13,22 @@ layout: default
   </article>
 
 </div>
+
+<div class="row">
+  <hr /><br />
+  <div class="block2-2">
+    <p class="post-date">Comment</p>
+  </div>
+  <div class="block2-2">
+    <form method="post" name="formmail" action="http://www.cgi4all.org/cgi-bin/formmail.cgi">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+      <input type="hidden" name="recipient" value="vin@misday.com" />
+      <input type="hidden" name="title" value="{{ page.title }}"/>
+      <input class="mdl-textfield__input" type="text" name="email" placeholder="What is your mail?" required/>
+      <textarea class="mdl-textfield__input" type="text" name="mensagem" placeholder="What you want to tell to me? :)" required></textarea>
+      <input class="" type="submit" value="SEND TO ME!"/>
+    </div>
+    </form>
+  </div>
+</div>
+
