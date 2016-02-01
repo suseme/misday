@@ -3,8 +3,7 @@
   {% include head.html %}
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 
-    <!-- Always shows a header, even in smaller screens. -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="mdl-layout mdl-js-layout">
       {% include header.html %}
 
       <main class="mdl-layout__content">
@@ -13,6 +12,7 @@
           <div class="mdl-cell mdl-cell--8-col">
             {{ content }}
           </div>
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
         </div>
         
         {% include footer.html %}
