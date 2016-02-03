@@ -10,8 +10,8 @@ pygments: true
 paginate: 4
 paginate_path: "/page:num"
 
-relative_permalinks: true
-permalink: "/:categories/:title/"
+#relative_permalinks: true
+#permalink: "/:categories/:title/"
 
 exclude: [CNAME, npm-debug.log, node_modules]
 
