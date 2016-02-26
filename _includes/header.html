@@ -7,7 +7,6 @@
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation. We hide it in small screens. -->
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="/">HOME</a>
       <a class="mdl-navigation__link" href="/contacts.html">CONTACT</a>
       <a class="mdl-navigation__link" href="/about.html">ABOUT</a>
     </nav>
@@ -17,8 +16,13 @@
 <div class="mdl-layout__drawer">
   <span class="mdl-layout-title"><a href="/">{{ site.title }}</a></span>
   <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" href="/">HOME</a>
     <a class="mdl-navigation__link" href="/contacts.html">CONTACT</a>
     <a class="mdl-navigation__link" href="/about.html">ABOUT</a>
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+    <a class="mdl-navigation__link" href="/tag/{{ tag | first | slugify }}/">
+      {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </a>
+    {% endfor %}
   </nav>
 </div>
