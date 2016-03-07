@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Build Android Kernel
+categories: IT
+tags: android
 ---
 
 下载Android源码；   

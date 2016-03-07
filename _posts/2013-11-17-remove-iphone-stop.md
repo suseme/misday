@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 解除Iphone停用
+categories: IT
+tags: ios
 ---
 
 输错了太多次密码，很不幸，iPhone被停用了。

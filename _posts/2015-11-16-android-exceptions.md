@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Android各种exceptions
+categories: IT
+tags: android
 ---
 
 Exceptions来自http://developer.android.com/reference/packages.html。  
