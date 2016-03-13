@@ -14,19 +14,22 @@ Reference
  * ... text ...
  */
 ```
-or
+
+or   
 ```
 /*!
  * ... text ...
  */
 ```
-or
+
+or   
 ```
 ///
 /// ... text ...
 ///
 ```
-or
+
+or  
 ```
 //!
 //!... text ...
@@ -37,25 +40,30 @@ or
 ```
 int var; /**< Detailed description after the member */
 ```
-or
+
+or   
 ```
 int var; /*!< Detailed description after the member */
 ```
-or
+
+or   
 ```
 int var; ///< Detailed description after the member
          ///< 
 ```
-or
+
+or   
 ```
 int var; //!< Detailed description after the member
          //!< 
 ```
-or
+
+or   
 ```
 int var; ///< Brief description after the member
 ```
-or
+
+or   
 ```
 int var; //!< Brief description after the member
 ```
@@ -77,10 +85,12 @@ int var; //!< Brief description after the member
 + \package to document a Java package.
 + \interface to document an IDL interface. 
 + \todo to document a todo block.
+
 ```
 /** @file */ 
 ```
 
+or   
 ```
 /*! \file */ 
 ```
