@@ -1,16 +1,16 @@
----
+ï»¿---
 layout: post
-title: pyqt ±àÒëuiÎÄ¼şqrcÎÄ¼ş
+title: pyqt ç¼–è¯‘uiæ–‡ä»¶qrcæ–‡ä»¶
 categories: IT
 tags: pyqt
 ---
 
-+ ±àÒëuiÎÄ¼ş
++ ç¼–è¯‘uiæ–‡ä»¶
 ```
 D:\bin\Python27\Lib\site-packages\PyQt4\pyuic4.bat -x main.ui -o main.py
 ```
 
-+ ±àÒëqrcÎÄ¼ş
++ ç¼–è¯‘qrcæ–‡ä»¶
 ```
 D:\bin\Python27\Lib\site-packages\PyQt4\pyrcc4.exe res.qrc -o res_rc.py
 ```
