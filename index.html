@@ -1,35 +1,43 @@
 ---
 layout: default
 ---
-<div >
 
-  {% for post in paginator.posts %}
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  <div class="mdl-card mdl-shadow--2dp mdl-card--expand">
-    <div class="mdl-card__title mdl-card--border mdl-color--light-blue-100">
-      <h2 class="mdl-card__title-text"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <h4 class="mdl-card__subtitle-text">@ {{ post.date | date: "%b %-d, %Y" }}</h4>
-    </div>
-    <div class="mdl-card__supporting-text">
-      {{ post.content | truncate: 400 }} ...
-    </div>
-    <div class="mdl-card__actions mdl-card--border mdl-color--grey-200">
-      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ post.url }}">
-        MORE
-      </a>
-    </div>
-  </div>
-  </section>
-  <br/>
-  {% endfor %}
+<div class="home">
+  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+  <h1 class="page-heading">Articles</h1>
 
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-shadow--2dp mdl-card--expand">
-      <ul >
-      {% for post in site.posts %}
-          <li ><a href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-  </section>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
+  {% else %}
+    <span class="previous">PREV</span>
+  {% endif %}
+  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
+  {% else %}
+    <span class="next ">NEXT</span>
+  {% endif %}
+</div>
+
 </div>

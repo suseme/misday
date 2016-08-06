@@ -1,17 +1,44 @@
+# Site settings
 auto: false
 name: MISDAY
 title: MISDAY
-subtitle: Developer
-url: http://www.misday.com
-authors: Vincent Wang (vin@misday.com)
+url: "http://localhost:4000"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
 
-pygments: true
+# Your information
+email: vin@misday.com
+author: Vincent
+avatar: "https://avatars0.githubusercontent.com/u/1163889?v=3&s=460"
+profile: One sentence introducing yourself.
 
-paginate: 4
-paginate_path: "/page:num"
+# Social network configuration
+#twitter_username: twitter_username
+github_username:  susemm
 
-#relative_permalinks: true
-#permalink: "/:categories/:title/"
+# Comment Service (Disqus or ถเหต)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+#pygments: true
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+# - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude: [CNAME, npm-debug.log, node_modules]
 

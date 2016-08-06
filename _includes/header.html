@@ -1,28 +1,12 @@
-<!--header bar-->
-<header class="mdl-layout__header ">
-  <div class="mdl-layout__header-row">
-    <!-- Title -->
-    <span class="mdl-layout-title mdl-color-text--grey"><a href="/">{{ site.title }}</a></span>
-    <!-- Add spacer, to align navigation to the right -->
-    <div class="mdl-layout-spacer"></div>
-    <!-- Navigation. We hide it in small screens. -->
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="/contacts.html">CONTACT</a>
-      <a class="mdl-navigation__link" href="/about.html">ABOUT</a>
+<header class="header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <nav class="site-nav">
+      {% for page in site.pages %}
+        {% if page.title and page.public %}
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
     </nav>
   </div>
 </header>
-<!--side bar-->
-<div class="mdl-layout__drawer">
-  <span class="mdl-layout-title"><a href="/">{{ site.title }}</a></span>
-  <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" href="/contacts.html">CONTACT</a>
-    <a class="mdl-navigation__link" href="/about.html">ABOUT</a>
-    {% assign tags = site.tags | sort %}
-    {% for tag in tags %}
-    <a class="mdl-navigation__link" href="/tag/{{ tag | first | slugify }}/">
-      {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
-    </a>
-    {% endfor %}
-  </nav>
-</div>
