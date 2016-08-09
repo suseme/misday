@@ -2,17 +2,16 @@
 auto: false
 name: MISDAY
 title: MISDAY
-url: "http://www.misday.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+url: "http://www.misday.com"
+baseurl: "/"
 #timezone: Asia/Chongqing
-description: >
-  One or more sentences introducing this blog.
+description: ""
 
 # Your information
 email: vin@misday.com
 author: Vincent
 avatar: "https://avatars0.githubusercontent.com/u/1163889?v=3&s=460"
-profile: One sentence introducing yourself.
+profile: ""
 
 # Social network configuration
 #twitter_username: twitter_username
@@ -20,7 +19,7 @@ github_username:  susemm
 
 # Comment Service (Disqus or ถเหต)
 #  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+disqus_shortname: misday-1   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 #pygments: true
