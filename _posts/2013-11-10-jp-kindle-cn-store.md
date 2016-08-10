@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 日版的KPW，下载Amazon.cn的免费书籍
 categories: IT

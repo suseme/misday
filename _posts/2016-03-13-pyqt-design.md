@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: pyqt 编译ui文件qrc文件
 categories: Python

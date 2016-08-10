@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 解除Iphone停用
 categories: IT

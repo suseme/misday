@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Doxygen, documenting the code
 categories: IT
