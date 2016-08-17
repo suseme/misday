@@ -11,11 +11,12 @@ RFC5681
 # 3. 拥塞控制算法
 
 ## 3.1 慢启动和拥塞避免
+
 cwnd | 发送端
 rwnd | 接收端
 ssthresh | 决定使用哪种算法
 
-IW
+**IW**
 
 ```
 SWSS > 2190:
@@ -29,13 +30,13 @@ SMSS <= 1095:
 cwnd < ssthresh | 使用慢启动算法
 cwnd > ssthresh | 使用拥塞避免算法
 
-慢启动算法
+**慢启动算法**
 
 ```
 cwnd += min(N, SMSS)
 ```
 
-拥塞避免算法
+**拥塞避免算法**
 
 ```
 cwnd += 1 *　full-sized segment
@@ -43,7 +44,8 @@ cwnd += min(N, SMSS) # 每个RTT后
 cwnd += SMSS * SMSS / cwnd # 常用的
 ```
 
-发生超时重传时：
+**发生超时重传时：**
+
 ```
 ssthresh = max(FlightSize / 2, 2 * SMSS)
 cwnd = min(x, full-size segment)
