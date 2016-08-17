@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Use eclipse+cdt and gdb to debug remote application
-tags: IT
-categories: gdb eclipse cdt
+excerpt: Use eclipse+cdt and gdb to debug remote application
+tags: gdb eclipse cdt
+categories: IT
 ---
 
 Ignore the gdb and gdbserver install on pc and target board.
