@@ -14,16 +14,34 @@
     {% endif %}
   </p>
 </div>
-
+<!-- TOC -->
+<div class="col-box post-toc hide">
+  <div class="col-box-title">TOC</div>
+</div>
+<!-- categories -->
+<div class="col-box">
+<div class="col-box-title">Categories</div>
+<ul class="post-list">
+    {% for category in site.categories %}
+      <li><a class="post-link" href="/category/#{{ category[0] }}">{{ category[0] | upcase }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+<!-- newest posts -->
 <div class="col-box">
   <div class="col-box-title">Newest Posts</div>
   <ul class="post-list">
     {% for post in site.posts limit:5 %}
-      <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+      <li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
-
-<div class="col-box post-toc hide">
-  <div class="col-box-title">TOC</div>
+<!-- links -->
+<div class="col-box">
+  <div class="col-box-title">Links</div>
+  <ul class="post-list">
+    {% for friend in site.friends %}
+      <li><a class="post-link" href="{{ friend.href }}">{{ friend.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
