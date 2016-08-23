@@ -20,7 +20,7 @@ github_username:  susemm
 # Comment Service (Disqus or ถเหต)
 #  choose one and un-comment the line to active it
 disqus_shortname: misday-1   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+duoshuo_shortname: misday  # get one: http://duoshuo.com/create-site/
 
 #pygments: true
 permalink: /archivers/:title
