@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Checksum: 
+! Version: 201805031052
+! Title: adblock_plus_list
+! Last modified: 03 May 2018 02:40 UTC
+! Expires: 1 days (update frequency)
+! Homepage: https://www.misday.com/
+! Licence: 
+!
+! Please report any unblocked adverts or problems
+! in the forums (https://forums.lanik.us/)
+! or via e-mail (vin@misday.com).
+!
+!-----------------------General advert blocking filters-----------------------!
+! *** easylist:www.misday.com/assets/adblock_plus_list.txt ***
+blog.csdn.net##.pulllog-box
+blog.csdn.net##.J_close.layer_close
+cn.aliyun.com##.add-bg
+jb51.net##.subnav.clearfix
+jb51.net###txtlink
+jb51.net##.blank5
+jb51.net##.topimg
+jb51.net##.blank10
+jb51.net##.idc3
+baidu.com##.c-table.opr-toplist-table
+blog.csdn.net##.csdn-tracking-statistics.mb8.box-shadow
+blog.csdn.net###asideFooter
+blog.csdn.net##.edu-promotion
