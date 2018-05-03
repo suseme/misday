@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: 
 ! Version: 201805031052
-! Title: adblock_plus_list
+! Title: Misday adblock+ list
 ! Last modified: 03 May 2018 02:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://www.misday.com/
