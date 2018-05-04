@@ -26,3 +26,5 @@ baidu.com##.c-table.opr-toplist-table
 blog.csdn.net##.csdn-tracking-statistics.mb8.box-shadow
 blog.csdn.net###asideFooter
 blog.csdn.net##.edu-promotion
+blog.csdn.net##.csdn-tracking-statistics.mb8.box-shadow
+os.51cto.com##.footer_mask
