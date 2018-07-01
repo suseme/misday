@@ -28,3 +28,6 @@ blog.csdn.net###asideFooter
 blog.csdn.net##.edu-promotion
 blog.csdn.net##.csdn-tracking-statistics.mb8.box-shadow
 os.51cto.com##.footer_mask
+post.smzdm.com###yc_leftLayer
+post.smzdm.com##.leftLayer
+jingyan.baidu.com##.wrp-exp-share
