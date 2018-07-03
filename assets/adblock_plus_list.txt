@@ -31,3 +31,9 @@ os.51cto.com##.footer_mask
 post.smzdm.com###yc_leftLayer
 post.smzdm.com##.leftLayer
 jingyan.baidu.com##.wrp-exp-share
+blog.163.com###r_fixedNodesCnt
+blog.163.com##.fixedNodesCnt.f-trans
+blog.163.com###r_mlofteriframe
+blog.163.com##.m-lofteriframe
+blog.163.com###r_m163news
+blog.163.com##.m-163news
