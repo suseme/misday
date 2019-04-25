@@ -3,11 +3,27 @@
 &copy; 2016 {{ site.author }}
 </div>
 </footer>
-
+<!-- For markdown graph/chart rendering -->
 <script src="{{ site.js }}/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
+<!-- For mindmap rendering -->
+<script type="text/javascript" src="{{ site.js }}/kity.min.js"></script>
+<script type="text/javascript" src="{{ site.js }}/kityminder.core.min.js"></script>
+<script>
+function rendMindmap(target) {
+    var minder = new kityminder.Minder();
+    target = document.querySelector(target);
+    if (!target) { return; }
+    var data = target.textContent;
+    target.textContent = null;
+    minder.renderTo(target);
+    minder.importData('markdown', data);
+    minder.disable();
+    minder.execCommand('hand');
+}
+rendMindmap('.language-mindmap');
+</script>
 
 <script src="{{ site.js }}/easybook.js"></script>
 
 {% include analytics.html %}
-
