@@ -40,3 +40,4 @@ blog.163.com##.m-163news
 baike.baidu.com##.lemmaWgt-promotion-vbaike
 baike.baidu.com##.lemmaWgt-promotion-slide
 mp.weixin.qq.com##.qr_code_pc
+new.qq.com###RIGHT
