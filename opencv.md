@@ -1,8 +1,8 @@
 ---
 layout: page
 title: OpenCVTutorials
-permalink: http://opencv.misday.com
+permalink: /opencv/
 public: true
 ---
 
-[OpenCVTutorials 4.1.2 中文](opencv.misday.com)
+[OpenCVTutorials 4.1.2 中文](http://opencv.misday.com)
