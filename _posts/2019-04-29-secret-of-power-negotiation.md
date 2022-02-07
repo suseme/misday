@@ -4,6 +4,7 @@ title: Secrets of power negotiation
 excerpt: 
 tags: sociology
 categories: Life
+excerpt: 优势谈判内容
 ---
 
 ```mindmap

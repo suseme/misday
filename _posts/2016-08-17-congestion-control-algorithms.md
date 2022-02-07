@@ -3,7 +3,7 @@ layout: post
 title: Congestion control algorithms
 excerpt: Congestion control algorithms
 tags: tcp congestion
-categories: IT
+categories: Tech
 ---
 
 RFC5681

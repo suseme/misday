@@ -3,7 +3,8 @@ layout: post
 title: Fault Injection Test
 excerpt:
 tags: test
-categories: IT
+categories: Tech
+excerpt: 故障注入测试 from 百度文库
 ---
 
 Fault Injection Test

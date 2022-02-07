@@ -3,7 +3,7 @@ layout: post
 title: Shared folders in VirtualBox
 excerpt:
 tags: tools
-categories: IT
+categories: Tech
 ---
 
 Shared folders in VirtualBox

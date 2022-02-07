@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Doxygen, documenting the code
-categories: IT
+categories: Tech
 tags: doxygen
 ---
 

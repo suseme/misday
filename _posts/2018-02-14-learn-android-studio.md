@@ -3,7 +3,8 @@ layout: post
 title: Learn Android Studio 汉化教程
 excerpt: 
 tags: androi-studio
-categories: IT
+categories: Tech
+excerpt: Note for learning Android Studio
 ---
 
 # Studio教程

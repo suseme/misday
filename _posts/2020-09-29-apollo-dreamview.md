@@ -3,8 +3,8 @@ layout: post
 title: Apollo Dreamview
 excerpt:
 tags: tools
-categories: IT
-
+categories: Tech
+excerpt: Dreamview of Apollo structure
 ---
 
 ```json

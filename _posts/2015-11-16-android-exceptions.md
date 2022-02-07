@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android各种exceptions
-categories: IT
+categories: Tech
 tags: android
 ---
 

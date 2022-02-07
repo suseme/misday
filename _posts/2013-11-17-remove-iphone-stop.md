@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 解除Iphone停用
-categories: IT
+categories: Tech
 tags: ios
 ---
 

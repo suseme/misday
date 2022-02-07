@@ -3,7 +3,7 @@ layout: post
 title: Lakka的中文乱码问题
 excerpt: Fix messy code of simple chinese on lakka
 tags: lakka libretro game
-categories: IT
+categories: Tech
 ---
 
 1. SSH登录，具体步骤请参考官网[Accessing Lakka command line interface](http://www.lakka.tv/doc/Accessing-Lakka-command-line-interface/ "Accessing Lakka command line interface")。
@@ -15,5 +15,3 @@ categories: IT
 mv ~/system/font.ttf ~/assets/xmb/monochrome/
 ```
 3. 重启下，可能也不需要重启，然后再设置为中文。
-
-
