@@ -1,8 +1,8 @@
 ---
 layout: page
-title: OpenCVTutorials
+title: OpenCV Tutorials
 permalink: /opencv/
 public: true
 ---
 
-[OpenCVTutorials 4.1.2 中文](http://opencv.misday.com)
+[OpenCV Tutorials 4.1.2 中文](http://opencv.misday.com)
